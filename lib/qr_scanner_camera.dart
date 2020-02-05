@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:native_device_orientation/native_device_orientation.dart';
-import 'package:carousel_pro/flutter_qr_scanner.dart';
+import 'package:flutter_qr_scanner/flutter_qr_scanner.dart';
 
 final WidgetBuilder _defaultNotStartedBuilder = (context) => new Text("Loading Scanner Camera...");
 final WidgetBuilder _defaultOffscreenBuilder = (context) => new Text("Scanner Camera Paused.");
