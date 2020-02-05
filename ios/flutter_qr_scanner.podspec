@@ -8,7 +8,7 @@ A Plugin for reading/scanning QR & Bar codes using Google's Mobile Vision API.
   s.homepage         = 'https://github.com/kihaso111/flutter_qr_scanner.git'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Lutfor Rahman' => 'contact.lutforrahman@gmail.com' }
-  s.source           = { :path => '.' }
+  s.source           = { :git => 'https://github.com/kihaso111/flutter_qr_scanner.git' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
